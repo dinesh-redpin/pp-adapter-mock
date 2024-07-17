@@ -1,0 +1,86 @@
+{
+  "Account": {
+    "id": 1,
+    "name": "John M Doe",
+    "firstName": "John",
+    "middleName": "M",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "contactNo": "1234567890",
+    "accountType": "SOLICITOR",
+    "status": true,
+    "acases": [
+      {
+        "createdDate": "2024-07-08T11:30:55",
+        "updatedDate": "2024-07-08T11:30:55",
+        "id": 1,
+        "account": [
+          {
+            "createdDate": "2024-07-08T11:30:55",
+            "updatedDate": "2024-07-08T11:30:55",
+            "id": 2,
+            "name": "Jane Smith",
+            "firstName": "Jane",
+            "middleName": "",
+            "lastName": "Smith",
+            "email": "jane.smith@example.com",
+            "contactNo": "0987654321",
+            "accountType": "BUYER",
+            "status": true
+          },
+          {
+            "createdDate": "2024-07-08T11:30:55",
+            "updatedDate": "2024-07-08T11:30:55",
+            "id": 1,
+            "name": "John M Doe",
+            "firstName": "John",
+            "middleName": "M",
+            "lastName": "Doe",
+            "email": "john.doe@example.com",
+            "contactNo": "1234567890",
+            "accountType": "SOLICITOR",
+            "status": true
+          }
+        ],
+        "transactionReference": "TXN54321",
+        "fileReference": "REF12345",
+        "purchaseValue": 250000.0,
+        "currency": "GBP",
+        "settlementDate": "2024-06-27T00:00:00",
+        "address": null,
+        "settlementAccount": "ACC98765",
+        "status": true
+      },
+      {
+        "createdDate": "2024-07-08T11:30:55",
+        "updatedDate": "2024-07-08T11:30:55",
+        "id": 2,
+        "account": [
+          {
+            "createdDate": "2024-07-08T11:30:55",
+            "updatedDate": "2024-07-08T11:30:55",
+            "id": 1,
+            "name": "John M Doe",
+            "firstName": "John",
+            "middleName": "M",
+            "lastName": "Doe",
+            "email": "john.doe@example.com",
+            "contactNo": "1234567890",
+            "accountType": "SOLICITOR",
+            "status": true
+          }
+        ],
+        "transactionReference": "Trans456",
+        "fileReference": "ABC123",
+        "purchaseValue": 111500.0,
+        "currency": "GBP",
+        "settlementDate": "2023-06-15T00:00:00",
+        "address": null,
+        "settlementAccount": "Settle123",
+        "status": false
+      }
+    ]
+  },
+  "response_description": "Data found",
+  "response_code": "000"
+}
